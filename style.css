@@ -56,4 +56,11 @@ header.startup h1 {
   border-width: 5px;
   cursor: pointer;
 }
-  
+
+.coinmarketcap-currency-widget {
+  font-weight: bolder;
+  max-width: 500px;
+  max-width: 500px;
+  border-radius: 15px;
+
+}
