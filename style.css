@@ -7,6 +7,11 @@ html {
 
 body {
   font-family: 'Montserrat', sans-serif;
+  background-image: url("header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
 }
 
 hr {
@@ -21,7 +26,6 @@ hr {
 
 header.startup {
   background-position: center;
-  background-image: url("header.jpg");
   background-size: cover;
   height: 100%;
 }
@@ -58,9 +62,14 @@ header.startup h1 {
 }
 
 .coinmarketcap-currency-widget {
-  font-weight: bolder;
-  max-width: 500px;
-  max-width: 500px;
-  border-radius: 15px;
+   font-weight: bolder;
+   max-width: 500px;
+   border-radius: 15px;
+   opacity: 0.85;
+}
 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
 }
