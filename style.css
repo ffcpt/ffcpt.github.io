@@ -62,6 +62,7 @@ header.startup h1 {
 }
 
 .coinmarketcap-currency-widget {
+   color: white;
    font-weight: bolder;
    max-width: 500px;
    border-radius: 15px;
